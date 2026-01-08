@@ -1,4 +1,4 @@
-# 🧠 Allergen Scanner – Android AI Application
+# Allergen Scanner – Android AI Application
 
 **Allergen Scanner** is an Android-based mobile application that uses **computer vision** and **artificial intelligence** to automatically detect food allergens from product package images.
 
@@ -6,7 +6,7 @@ The app integrates a **custom YOLOv8 model (TensorFlow Lite)** with **on-device 
 
 ---
 
-## 🎯 Project Goal
+## Project Goal
 
 The goal of this project is to demonstrate an end-to-end workflow combining machine learning, mobile development, and computer vision for a practical real-world purpose — helping users automatically identify allergens in food products.
 
@@ -69,7 +69,7 @@ If the YOLO detector fails to locate the ingredient area, the system automatical
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 | Category | Tools / Frameworks |
 |-----------|--------------------|
@@ -84,16 +84,16 @@ If the YOLO detector fails to locate the ingredient area, the system automatical
 
 ## 🧩 Features
 
-- 📷 Detects ingredient boxes using YOLO
-- 🔤 Extracts text via OCR (ML Kit)
-- 🌐 Detects allergens across multiple languages
-- 🎨 Highlights allergens visually
-- 💾 Saves scan history locally
-- ⚙️ Works fully offline (no network required)
+-  Detects ingredient boxes using YOLO
+-  Extracts text via OCR (ML Kit)
+-  Detects allergens across multiple languages
+-  Highlights allergens visually
+-  Saves scan history locally
+-  Works fully offline (no network required)
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 
 - Integrate **live camera scanning** for real-time detection  
 - Expand the allergen dictionary and language support  
@@ -103,17 +103,10 @@ If the YOLO detector fails to locate the ingredient area, the system automatical
 
 ---
 
-## 📸 Example Workflow
+##  Example Workflow
 
 1. Select a test image from assets or gallery  
 2. Tap **“Scan Allergens”**  
 3. The app detects allergen keywords and highlights them  
 4. View detected allergens and explanations  
 5. Open **History** to see previously scanned results
-
----
-
-## 🪪 License
-
-This project is released under the **MIT License**.  
-You are free to use, modify, and distribute it with proper attribution.
